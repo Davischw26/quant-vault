@@ -1,0 +1,50 @@
+/* A quiet, website-like reading layout for the route-based vault. */
+
+.markdown-preview-view .markdown-preview-sizer,
+.markdown-source-view.mod-cm6 .cm-contentContainer {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.markdown-preview-view h1 {
+  margin-bottom: 0.8em;
+  letter-spacing: -0.025em;
+}
+
+.markdown-preview-view h2 {
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-preview-view table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+}
+
+.markdown-preview-view th {
+  background: var(--background-secondary);
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td {
+  padding: 0.75em 0.9em;
+  vertical-align: top;
+}
+
+.markdown-preview-view blockquote {
+  border-radius: 0 8px 8px 0;
+}
+
+.markdown-preview-view a.internal-link {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.markdown-preview-view hr {
+  margin-top: 2.5em;
+}
